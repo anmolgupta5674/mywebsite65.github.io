@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./hd-wallpaper-g903574c0f_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    background: #000;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list .logo{
+    width: 20%;
+}
+
+.nav-list .logo img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.nav-list ul{
+    display: flex;
+}
+
+.nav-list li{
+    padding: 12px 12px;
+    list-style: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-list a:hover{
+    color: grey;
+    background: white;
+    border: 2px solid white;
+    border-radius: 20%;
+}
+
+.right-nav{
+    width: 50%;
+    margin: 12px 12px;
+    text-align: right;
+}
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.paragraph{
+    width: 50%;
+}
+
+.text-big{
+    font-size: 70px;
+    color: orange;
+}
+
+.text-small{
+    font-size: 30px;
+    color: #fff;
+}
+
+.form{
+    width: 30%;
+    display: flex;
+    border: 2px solid white;
+    align-items: center;
+    background: lightblue;
+    justify-content: center;
+}
+
+form{
+    height: 500px;
+    margin: 10px 10px;
+}
+
+.button-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading .button-top{
+    border-bottom: 2px solid white;
+}
+
+.login-button{
+    font-size: 25px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 12px 52px;
+    color: #000;
+}
+
+.register-button{
+    font-size: 25px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 12px 52px;
+    color: black;
+}
+
+.login-button:hover{
+    background: black;
+    color: white;
+}
+
+.register-button:hover{
+    background: red;
+    color: white;
+}
+
+.form-input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#form-box{
+    width: 100%;
+    border-bottom: 2px solid blue;
+    outline: 0;
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 22px;
+    color: #000;
+}
+
+#form-box-label{
+    width: 100%;
+    outline: 0;
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 22px;
+    color: white;
+}
+
+.check-box{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+#check-box-area{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.check-box-paragraph{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.check-box-paragraph p{
+    color: violet;
+    font-size: 20px;
+}
+
+.already-a-member-paragraph{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.already-a-member-paragraph p{
+    font-size: 32px;
+    color: black;
+}
+
+.last-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+
+.Sign-in{
+    background: red;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 32px;
+    padding: 12px 34px;
+}
+
+.Sign-up{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 32px;
+    padding: 12px 34px;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.subscribe-button{
+    padding: 0px 22px;
+    background: red;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: black;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.watch-videos-button{
+    padding: 0px 22px;
+    background: grey;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 32px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 30px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer p{
+    color: white;
+    font-size: 42px;
+}
+
+.form-box{
+    width: 100%;
+}
+
+#login-register-text{
+    color: black;
+}
+#login-register-text:hover{
+    color: black;
+    background: black;
+    border: none;
+}
+
+
+
+@media only screen and (max-width:1170px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .header{
+        max-width: 1170px;
+        height: 200vh;
+        position: relative;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./hd-wallpaper-g903574c0f_1920.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+    }
+    
+    .nav-list{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-list .logo{
+        width: 20%;
+    }
+    
+    .nav-list .logo img{
+        width: 50px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    
+    .nav-list ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-list li{
+        padding: 12px 12px;
+        list-style: none;
+    }
+    
+    .nav-list a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .nav-list a:hover{
+        color: grey;
+        background: white;
+        border: 2px solid white;
+        border-radius: 20%;
+    }
+    
+    .right-nav{
+        width: 50%;
+        margin: 12px 12px;
+        text-align: center;
+    }
+    
+    #search{
+        width: 100%;
+    }
+    .main-heading{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .paragraph{
+        width: 50%;
+    }
+    
+    .text-big{
+        font-size: 30px;
+        color: orange;
+    }
+    
+    #main-buttons-resp{
+        width: 100%;
+    }
+    
+    .text-small{
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    #paragraph-resp{
+        width: 100%;
+    }
+    
+    .form{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        border: 2px solid white;
+        align-items: center;
+        background: lightblue;
+        justify-content: center;
+    }
+    
+    form{
+        width: 100%;
+        margin: 10px 10px;
+        height: 650px;
+    }
+    
+    .button-top{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-heading .button-top{
+        border-bottom: 2px solid white;
+    }
+    
+    .form-box-label{
+        width: 100%;
+    }
+    
+    .login-button{
+        font-size: 25px;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 24px;
+        padding: 12px 22px;
+        color: #000;
+    }
+    
+    #agree-resp{
+        width: 100%;
+        font
+    }
+    
+    .register-button{
+        font-size: 25px;
+        outline: none;
+        margin-top: 10px;
+        border: 2px solid white;
+        border-radius: 24px;
+        padding: 12px 22px;
+        color: black;
+    }
+    
+    .login-button:hover{
+        background: black;
+        color: white;
+    }
+    
+    .register-button:hover{
+        background: red;
+        color: white;
+    }
+    
+    .form-input{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    #signup-and-signin-buttons-resp{
+        width: 100%;
+    }
+    
+    #form-box{
+        width: 100%;
+        border-bottom: 2px solid blue;
+        outline: 0;
+        background: transparent;
+        border-top: 0px;
+        text-align: left;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 22px;
+        color: #000;
+    }
+    
+    #button-top-resp{
+        width: 100%;
+    }
+    
+    #form-box-label{
+        width: 100%;
+        outline: 0;
+        background: transparent;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 22px;
+        color: white;
+    }
+    
+    .check-box{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+    }
+    #check-box-area{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .check-box-paragraph{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .check-box-paragraph p{
+        color: violet;
+        font-size: 20px;
+    }
+    
+    .already-a-member-paragraph{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .already-a-member-paragraph p{
+        font-size: 32px;
+        color: black;
+    }
+    
+    .last-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:50px;
+        flex-direction: column;
+    }
+    
+    .Sign-in{
+        background: red;
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 32px;
+        margin-top: 20px;
+        padding: 12px 14px;
+    }
+    
+    .Sign-up{
+        background: black;
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 32px;
+        padding: 12px 14px;
+    }
+    
+    .main-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        align-items: center;
+    }
+    
+    
+    .subscribe-button{
+        padding: 0px 12px;
+        background: red;
+        border: 2px solid white;
+        border-radius: 20px;
+        color: black;
+        font-size: 32px;
+        margin-right: 10px;
+    }
+    
+    .watch-videos-button{
+        padding: 0px 12px;
+        background: grey;
+        border: 2px solid white;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 32px;
+    }
+    
+    .footer{
+        display: flex;
+        background: black;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .footer p{
+        color: white;
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+    
+    .main-heading .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form{
+        margin-top:20px;
+        width: 100%;
+    }
+
+    #footer-p-resp{
+        width: 100%;
+        text-align: center;
+    }
+
+    #login-register-text{
+        color: white;
+    }
+    #login-register-text:hover{
+        color: grey;
+        background: white;
+        border: 2px solid white;
+        border-radius: 20%;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+   
+}
